@@ -1,0 +1,51 @@
+.btn {
+    background-color: wheat;
+    text-decoration: none;
+    border: 3px solid rgb(139, 127, 129);
+    padding: 24px;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+/* when you wnt to use left, you have to use position */
+.mymdlwindow {
+    background-color: rgba(100,11,0,0.5);
+    /* background-color: blueviolet; */
+    /* opacity: 0.5; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mymdlwindow:target {
+    /* display: all; */
+    opacity: 1;
+    pointer-events: all;
+}
+
+.msgbox {
+    background-color: floralwhite;
+    width: 50%;
+    margin: auto;
+    margin-top: 30%;
+    text-align: center;
+    /* pointer-events: none; */
+    margin-top: 10%;
+    
+
+}
+
+.msgbox > a {
+    font-size: 60px;
+}
+
+.starimg {
+    max-width: 70%;
+    height: auto
+}
